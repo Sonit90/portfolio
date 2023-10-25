@@ -8,7 +8,7 @@
       "description": "Develop new  features together with designers, product managers and backend engineers. Write automated integration unit tests, using Vitest to ensure everything works smoothly and crash-free. Add new features to internal UI library, fix bugs.",
       "achievements":[
       "Covered entire project with integration tests from scratch",
-      "Made data clusterization on fronted to visualize data using Chart.js",
+      "Organized a lot of small data points into clusters using OPTICS and DBSCAN algorithms",
       "Refactored codebase to make it more maintainable in the future"
     ],
       "skills": ["Vue2", "Vitest", "Chart.js", "JavaScript", "Typescript"]
