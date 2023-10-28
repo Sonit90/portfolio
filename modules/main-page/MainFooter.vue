@@ -11,7 +11,7 @@ const socials = [
 ];
 </script>
 <template>
-  <footer class="lg:pb-24 flex gap-6">
+  <footer class="lg:pb-24 flex mt-8 gap-6">
     <SocialIcon v-for="{ icon, link } in socials" :icon="icon" :link="link" />
   </footer>
 </template>

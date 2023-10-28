@@ -8,7 +8,7 @@ import MainFooter from "~/modules/main-page/MainFooter.vue";
       class="lg:sticky lg:top-0 lg:justify-between lg:flex lg:flex-col lg:max-h-screen lg:h-full"
     >
       <header class="lg:pt-24">
-        <h1 class="tracking-tight font-bold text-slate-200 text-5xl mb-3">
+        <h1 class="tracking-tight font-bold text-slate-200 text-4xl mb-3">
           Dmitriy Uralskiy
         </h1>
         <h2

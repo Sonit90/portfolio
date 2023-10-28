@@ -5,12 +5,11 @@ defineProps<{
 }>();
 </script>
 <template>
-  <a
+  <NuxtLink
     class="text-inherit hover:text-slate-200"
-    :href="link"
+    :to="link"
     target="_blank"
-    rel="noreferrer"
   >
     <font-awesome-icon class="w-6 h-6" :icon="'fa-brands ' + icon" />
-  </a>
+  </NuxtLink>
 </template>

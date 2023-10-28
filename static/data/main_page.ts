@@ -57,7 +57,7 @@ export const mainPage: ContentWrapper[] = [
         content: " and ",
       },
       {
-        type: "router-link",
+        type: "nuxt-link",
         content: "many other projects",
         attributes: {
           to: "/portfolio",
@@ -75,7 +75,7 @@ export const mainPage: ContentWrapper[] = [
       {
         type: "text",
         content:
-          "When I'm away from computed, I usually hang out with my friends, play board games or go to some meetings",
+          "When I'm away from PC, I usually hang out with my friends, play board games or go to some meetings",
       },
     ],
   },

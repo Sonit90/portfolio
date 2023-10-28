@@ -15,7 +15,7 @@ defineProps<{
 
 <template>
   <li
-    class="group/item transition-all relative flex gap-2 lg:group-hover:opacity-50 lg:hover:!opacity-100"
+    class="group/item transition-all relative flex gap-2 lg:group-hover:opacity-50 lg:hover:!opacity-100 flex-col"
   >
     <div
       class="transition motion-reduce:transition-none rounded-md absolute block -inset-x-4 -inset-y-4 z-0 lg:group-hover/item:bg-slate-800/50 lg:group-hover/item:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover/item:drop-shadow-lg"

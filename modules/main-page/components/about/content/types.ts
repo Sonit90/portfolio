@@ -6,7 +6,7 @@ type WrapperType = (typeof WrapperMap)[keyof typeof WrapperMap];
 export const ContentMap = {
   Text: "text",
   Link: "link",
-  RouterLink: "router-link",
+  NuxtLink: "nuxt-link",
 } as const;
 
 type ContentText = {
@@ -24,7 +24,7 @@ type ContentLink = {
 };
 
 type ContentRouterLink = {
-  type: typeof ContentMap.RouterLink;
+  type: typeof ContentMap.NuxtLink;
   content: string;
   attributes: {
     to: string;

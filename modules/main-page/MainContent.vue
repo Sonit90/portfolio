@@ -4,7 +4,7 @@ import MainExperience from "~/modules/main-page/components/experience/MainExperi
 </script>
 
 <template>
-  <main class="lg:w-1/2 lg:pt-24">
+  <main class="lg:w-1/2 pt-24">
     <MainAbout />
     <MainExperience />
   </main>

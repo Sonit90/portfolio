@@ -6,5 +6,5 @@ export const wrapperComponentsMap = {
 export const contentComponentsMap = {
   [ContentMap.Text]: "span",
   [ContentMap.Link]: "a",
-  [ContentMap.RouterLink]: "router-link",
+  [ContentMap.NuxtLink]: "nuxt-link",
 };
