@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainPortfolio from "~/modules/portfolio/MainPortfolio";
+</script>
 <template>
-  <div>123</div>
+  <MainPortfolio />
 </template>

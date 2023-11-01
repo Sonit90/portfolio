@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import MainNavigation from "~/modules/navigation/MainNavigation.vue";
+
 useHead({
   bodyAttrs: {
     class:
@@ -8,6 +10,7 @@ useHead({
 </script>
 
 <template>
+  <MainNavigation />
   <div
     class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
   >
