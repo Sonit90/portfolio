@@ -5,14 +5,23 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faArrowUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
 import { defineNuxtPlugin } from "nuxt/app";
 
 config.autoAddCss = false;
 
 // You can add your icons directly in this plugin. See other examples for how you
 // can add other styles or just individual icons.
-library.add(faGithub, faInstagram, faLinkedin, faBars);
+library.add(
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faBars,
+  faArrowUpRightFromSquare,
+);
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("font-awesome-icon", FontAwesomeIcon, {});

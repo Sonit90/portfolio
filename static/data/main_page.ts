@@ -46,27 +46,27 @@ export const mainPage: ContentWrapper[] = [
       },
       {
         type: "link",
-        content: "luxury children clothes brand",
+        content: "luxury children clothes brand.",
         attributes: {
           href: "https://bambinifashion.com/",
           target: "_blank",
         },
       },
-      {
-        type: "text",
-        content: " and ",
-      },
-      {
-        type: "nuxt-link",
-        content: "many other projects",
-        attributes: {
-          to: "/portfolio",
-        },
-      },
-      {
-        type: "text",
-        content: ", that are not mentioned here.",
-      },
+      // {
+      //   type: "text",
+      //   content: " and ",
+      // },
+      // {
+      //   type: "nuxt-link",
+      //   content: "many other projects",
+      //   attributes: {
+      //     to: "/portfolio",
+      //   },
+      // },
+      // {
+      //   type: "text",
+      //   content: ", that are not mentioned here.",
+      // },
     ],
   },
   {

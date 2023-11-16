@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   build: {
     transpile: [
       "@fortawesome/free-brands-svg-icons",
+      "@fortawesome/free-solid-svg-icons",
       "@fortawesome/vue-fontawesome",
     ],
   },

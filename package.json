@@ -34,6 +34,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
+    "data-info": "github:sonit90/data-info#master",
     "nuxt-icons": "^3.2.1",
     "typescript": "^5.1.6"
   }
